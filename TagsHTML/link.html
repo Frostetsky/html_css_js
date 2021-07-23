@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body>
+<!-- https://webref.ru/html/a -->
+<a href="http://www.google.com" target="_self">Google</a>
+<a href="navigation.html" target="_blank">Relative path</a>
+<a href="navigation.html?param1=value1&amp;param2=value2" target="_blank">Relative path</a>
+<hr>
+<!-- https://webref.ru/html/form -->
+<form action="navigation.html" method="get">
+    <input name="param1" value="value1">
+    <input type="submit" value="Send">
+</form>
+<hr>
+<!-- https://webref.ru/html/button -->
+<form method="get">
+    <button formaction="struct-1.html">struct-1.html</button>
+    <button formaction="struct-2.html">struct-2.html</button>
+</form>
+<hr>
+<!-- via javascript -->
+<button onclick="window.location='struct-1.html'">Goto struct-1.html</button>
+<a href="#" onclick="window.location='struct-1.html'">Goto struct-1.html</a>
+<a href="javascript:window.location='struct-1.html';">Goto struct-1.html</a>
+</body>
+</html>

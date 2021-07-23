@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body>
+<form action="form.html" method="get">
+    <label for="text">Текст</label><input name="text" id="text"><br>
+    <label for="number">Number</label><input type="number" name="number" id="number"><br>
+    <label for="checkbox">Checkbox</label><input type="checkbox" name="checkbox" id="checkbox"><br>
+    <label><input type="radio" name="radio" value="a1">Radio A1</label><br>
+    <label><input type="radio" name="radio" value="a2">Radio A2</label><br>
+    <label for="textarea">Textarea</label><textarea name="textarea" id="textarea"></textarea><br>
+    <select size="4" multiple name="city[]">
+        <option disabled>Выберите город</option>
+        <option value="Лондон">Лондон</option>
+        <option selected value="Киев">Киев</option>
+    </select><br>
+    <label for="select">Select</label><select id="select" name="city">
+    <option disabled>Выберите город</option>
+    <option value="Лондон">Лондон</option>
+    <option selected value="Киев">Киев</option>
+</select><br>
+    <p><input type="submit" value="Send"></p>
+</form>
+</body>
+</html>
